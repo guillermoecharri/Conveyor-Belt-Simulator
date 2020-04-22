@@ -1,0 +1,133 @@
+run:
+ * * * SIMULATION BEGINS * * *
+
+Station 0: In-Connection set to conveyor 0
+Station 0: Out-Connection set to conveyor 4
+Station 0: Workload set. Station 0 has 1 package groups to move.
+Station 1: In-Connection set to conveyor 1
+Station 1: Out-Connection set to conveyor 0
+Station 1: Workload set. Station 1 has 2 package groups to move.
+Station 2: In-Connection set to conveyor 2
+Station 2: Out-Connection set to conveyor 1
+Station 2: Workload set. Station 2 has 3 package groups to move.
+Station 3: In-Connection set to conveyor 3
+Station 3: Out-Connection set to conveyor 2
+Station 3: Workload set. Station 3 has 4 package groups to move.
+Station 4: In-Connection set to conveyor 4
+Station 4: Out-Connection set to conveyor 3
+Station 4: Workload set. Station 4 has 5 package groups to move.
+Station 3: granted access to conveyor 3
+Station 1: granted access to conveyor 1
+Station 0: granted access to conveyor 0
+Station 1: released access to conveyor 1
+Station 3: granted access to conveyor 2
+Station 3: successfully moves packages on conveyor 3
+Station 0: granted access to conveyor 4
+Station 3: successfully moves packages on conveyor 2
+Station 1: granted access to conveyor 1
+Station 1: released access to conveyor 1
+Station 1: granted access to conveyor 1
+Station 3: has 3 package groups left to move.
+Station 0: successfully moves packages on conveyor 0
+Station 2: granted access to conveyor 2
+Station 1: released access to conveyor 1
+Station 2: released access to conveyor 2
+Station 0: successfully moves packages on conveyor 4
+Station 0: has 0 package groups left to move.
+Station 2: granted access to conveyor 2
+Station 1: granted access to conveyor 1
+Station 2: released access to conveyor 2
+Station 4: granted access to conveyor 4
+Station 2: granted access to conveyor 2
+Station 2: released access to conveyor 2
+Station 1: granted access to conveyor 0
+Station 2: granted access to conveyor 2
+Station 2: released access to conveyor 2
+Station 4: granted access to conveyor 3
+Station 2: granted access to conveyor 2
+Station 1: successfully moves packages on conveyor 1
+Station 2: released access to conveyor 2
+Station 4: successfully moves packages on conveyor 4
+Station 2: granted access to conveyor 2
+Station 2: released access to conveyor 2
+Station 2: granted access to conveyor 2
+Station 1: successfully moves packages on conveyor 0
+Station 2: released access to conveyor 2
+Station 4: successfully moves packages on conveyor 3
+Station 2: granted access to conveyor 2
+Station 1: has 1 package groups left to move.
+Station 2: released access to conveyor 2
+Station 4: has 4 package groups left to move.
+Station 2: granted access to conveyor 2
+Station 2: granted access to conveyor 1
+Station 2: successfully moves packages on conveyor 2
+Station 2: successfully moves packages on conveyor 1
+Station 2: has 2 package groups left to move.
+Station 4: granted access to conveyor 4
+Station 4: granted access to conveyor 3
+Station 4: successfully moves packages on conveyor 4
+Station 1: granted access to conveyor 1
+Station 4: successfully moves packages on conveyor 3
+Station 4: has 3 package groups left to move.
+Station 1: granted access to conveyor 0
+Station 1: successfully moves packages on conveyor 1
+Station 1: successfully moves packages on conveyor 0
+Station 1: has 0 package groups left to move.
+
+ * * Station 0 Workload successfully completed. * *
+
+Station 3: granted access to conveyor 3
+Station 3: granted access to conveyor 2
+Station 3: successfully moves packages on conveyor 3
+Station 3: successfully moves packages on conveyor 2
+Station 3: has 2 package groups left to move.
+Station 2: granted access to conveyor 2
+Station 2: granted access to conveyor 1
+Station 2: successfully moves packages on conveyor 2
+Station 2: successfully moves packages on conveyor 1
+Station 2: has 1 package groups left to move.
+
+ * * Station 1 Workload successfully completed. * *
+
+Station 3: granted access to conveyor 3
+Station 3: granted access to conveyor 2
+Station 3: successfully moves packages on conveyor 3
+Station 3: successfully moves packages on conveyor 2
+Station 3: has 1 package groups left to move.
+Station 4: granted access to conveyor 4
+Station 4: granted access to conveyor 3
+Station 4: successfully moves packages on conveyor 4
+Station 4: successfully moves packages on conveyor 3
+Station 4: has 2 package groups left to move.
+Station 2: granted access to conveyor 2
+Station 2: granted access to conveyor 1
+Station 2: successfully moves packages on conveyor 2
+Station 2: successfully moves packages on conveyor 1
+Station 2: has 0 package groups left to move.
+Station 4: granted access to conveyor 4
+Station 4: granted access to conveyor 3
+Station 4: successfully moves packages on conveyor 4
+Station 4: successfully moves packages on conveyor 3
+Station 4: has 1 package groups left to move.
+Station 3: granted access to conveyor 3
+Station 3: granted access to conveyor 2
+Station 3: successfully moves packages on conveyor 3
+Station 3: successfully moves packages on conveyor 2
+Station 3: has 0 package groups left to move.
+
+ * * Station 2 Workload successfully completed. * *
+
+Station 4: granted access to conveyor 4
+Station 4: granted access to conveyor 3
+Station 4: successfully moves packages on conveyor 4
+Station 4: successfully moves packages on conveyor 3
+Station 4: has 0 package groups left to move.
+
+ * * Station 3 Workload successfully completed. * *
+
+
+ * * Station 4 Workload successfully completed. * *
+
+ * * * SIMULATION ENDS * * *
+
+BUILD SUCCESSFUL (total time: 1 second)
